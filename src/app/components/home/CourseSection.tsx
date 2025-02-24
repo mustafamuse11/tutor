@@ -3,84 +3,127 @@
 import { motion } from 'framer-motion';
 
 export default function CourseSection() {
-  const courses = [
-    {
-      title: "Web Development",
-      description: "Master modern web development with React, Next.js, and cutting-edge technologies",
-      image: "/web-dev.jpg"
-    },
-    {
-      title: "UI/UX Design",
-      description: "Create stunning user interfaces and seamless user experiences with modern design principles",
-      image: "/uiux.jpg"
-    },
-    {
-      title: "Mobile Development",
-      description: "Build powerful native mobile applications with React Native and Flutter frameworks",
-      image: "/mobile-dev.jpg"
-    },
-    {
-      title: "Data Science",
-      description: "Dive into data analysis, machine learning, and advanced visualization techniques",
-      image: "/data-science.jpg"
-    }
-  ];
-
   return (
-    <section className="py-20 bg-[#020817] relative overflow-hidden">
-      <div className="container mx-auto max-w-6xl">
-        <motion.h2 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="text-3xl font-bold text-center mb-12 text-white"
-        >
+    <div id="courses" className="bg-[#020817] py-16">
+      <div className="container mx-auto px-4">
+        <h2 className="text-5xl font-bold text-center bg-gradient-to-r from-[#04F9FC] via-[#7573F7] to-[#BF1CF0] bg-clip-text text-transparent mb-16">
           Our Courses
-        </motion.h2>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {courses.map((course, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
-              className="bg-[#2A2A3F] rounded-xl overflow-hidden shadow-lg 
-                         transition-all duration-300 ease-in-out
-                         hover:shadow-[0_0_20px_rgba(236,72,153,0.5)]
-                         hover:border-pink-500 border-2 border-transparent
-                         transform hover:-translate-y-1"
-              style={{
-                transform: 'translateZ(0)',
-              }}
-            >
-              <div className="relative h-52">
+        </h2>
+        
+        <div className="flex flex-col gap-8 max-w-5xl mx-auto">
+          {/* Web Development Card */}
+          <div className="bg-[#1E293B]/40 backdrop-blur-sm rounded-2xl p-8 hover:shadow-[0_0_30px_rgba(4,249,252,0.2)] transition-all duration-300 group min-h-[280px]">
+            <div className="flex flex-col md:flex-row gap-8 h-full">
+              <div className="md:w-2/5">
                 <img
-                  src={course.image}
-                  alt={course.title}
-                  className="w-full h-full object-cover"
+                  src="/web-development.jpg"
+                  alt="Web Development"
+                  className="w-full h-[240px] object-cover rounded-xl"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#2A2A3F] to-transparent opacity-50"></div>
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-white mb-3">
-                  {course.title}
-                </h3>
-                <p className="text-gray-400 mb-6 text-sm leading-relaxed">
-                  {course.description}
-                </p>
-                <div className="flex justify-end">
-                  <button className="bg-[#00E5FF]/90 text-black px-6 py-2 rounded-lg 
-                                   hover:bg-[#00E5FF] transition-all duration-300 text-sm font-medium
-                                   hover:shadow-[0_0_10px_rgba(0,229,255,0.3)]
-                                   transform hover:-translate-y-0.5">
+              <div className="md:w-3/5 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-2xl font-bold text-white mb-3">
+                    Web Development
+                  </h3>
+                  <p className="text-gray-400">
+                    Master modern web development with React, Next.js, and cutting-edge technologies. Learn from industry experts and build real-world projects.
+                  </p>
+                </div>
+                <div className="flex justify-end mt-4">
+                  <button className="bg-[#04F9FC] text-black px-8 py-3 rounded-full font-medium hover:shadow-[0_0_20px_rgba(4,249,252,0.6)] transition-all duration-300 hover:scale-105">
                     Book Now
                   </button>
                 </div>
               </div>
-            </motion.div>
-          ))}
+            </div>
+          </div>
+
+          {/* UI/UX Design Card */}
+          <div className="bg-[#1E293B]/40 backdrop-blur-sm rounded-2xl p-8 hover:shadow-[0_0_30px_rgba(4,249,252,0.2)] transition-all duration-300 group min-h-[280px]">
+            <div className="flex flex-col md:flex-row gap-8 h-full">
+              <div className="md:w-2/5">
+                <img
+                  src="/ui-ux-design.jpg"
+                  alt="UI/UX Design"
+                  className="w-full h-[240px] object-cover rounded-xl"
+                />
+              </div>
+              <div className="md:w-3/5 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-2xl font-bold text-white mb-3">
+                    UI/UX Design
+                  </h3>
+                  <p className="text-gray-400">
+                    Create stunning user interfaces and seamless user experiences with modern design principles. Learn the latest tools and techniques in UI/UX.
+                  </p>
+                </div>
+                <div className="flex justify-end mt-4">
+                  <button className="bg-[#04F9FC] text-black px-8 py-3 rounded-full font-medium hover:shadow-[0_0_20px_rgba(4,249,252,0.6)] transition-all duration-300 hover:scale-105">
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Mobile App Development Card */}
+          <div className="bg-[#1E293B]/40 backdrop-blur-sm rounded-2xl p-8 hover:shadow-[0_0_30px_rgba(4,249,252,0.2)] transition-all duration-300 group min-h-[280px]">
+            <div className="flex flex-col md:flex-row gap-8 h-full">
+              <div className="md:w-2/5">
+                <img
+                  src="/mobile-development.jpg"
+                  alt="Mobile Development"
+                  className="w-full h-[240px] object-cover rounded-xl"
+                />
+              </div>
+              <div className="md:w-3/5 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-2xl font-bold text-white mb-3">
+                    Mobile App Development
+                  </h3>
+                  <p className="text-gray-400">
+                    Build native mobile applications for iOS and Android using React Native and Flutter. Learn app development from concept to deployment.
+                  </p>
+                </div>
+                <div className="flex justify-end mt-4">
+                  <button className="bg-[#04F9FC] text-black px-8 py-3 rounded-full font-medium hover:shadow-[0_0_20px_rgba(4,249,252,0.6)] transition-all duration-300 hover:scale-105">
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Data Science Card */}
+          <div className="bg-[#1E293B]/40 backdrop-blur-sm rounded-2xl p-8 hover:shadow-[0_0_30px_rgba(4,249,252,0.2)] transition-all duration-300 group min-h-[280px]">
+            <div className="flex flex-col md:flex-row gap-8 h-full">
+              <div className="md:w-2/5">
+                <img
+                  src="/data-science.jpg"
+                  alt="Data Science"
+                  className="w-full h-[240px] object-cover rounded-xl"
+                />
+              </div>
+              <div className="md:w-3/5 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-2xl font-bold text-white mb-3">
+                    Data Science
+                  </h3>
+                  <p className="text-gray-400">
+                    Learn data analysis, machine learning, and AI with Python and modern data science tools. Master the skills needed for data-driven decision making.
+                  </p>
+                </div>
+                <div className="flex justify-end mt-4">
+                  <button className="bg-[#04F9FC] text-black px-8 py-3 rounded-full font-medium hover:shadow-[0_0_20px_rgba(4,249,252,0.6)] transition-all duration-300 hover:scale-105">
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
