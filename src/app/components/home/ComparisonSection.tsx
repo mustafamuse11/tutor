@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function ComparisonSection() {
   return (
-    <section className="py-20 px-4 bg-[#1A0B2E]">
+    <section className="py-20 bg-[#020817] relative overflow-hidden">
       <div className="container mx-auto max-w-6xl">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -70,9 +70,9 @@ export default function ComparisonSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="text-gray-400 text-center mt-12 text-lg"
+          className="text-gray-200 text-center mt-12 text-lg font-medium"
         >
-          From humble beginnings to professional excellence. Join us on this transformative journey.
+          From Humble Beginnings To Professional Excellence. Join Us On This Transformative Journey.
         </motion.p>
       </div>
     </section>

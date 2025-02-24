@@ -15,23 +15,31 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-24">
             {/* Logo */}
             <div className="text-2xl font-bold">
-              <span className="text-white">Your</span>
-              <span className="text-[#00E5FF]">Brand</span>
-              <span className="text-[#00E5FF]">Logo</span>
+              <span className="bg-gradient-to-r from-[#04F9FC] via-[#7573F7] to-[#BF1CF0] text-transparent bg-clip-text">
+                Logo
+              </span>
             </div>
 
             {/* Auth Buttons */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-6">
               <button 
                 onClick={() => setIsSignInOpen(true)}
-                className="px-8 py-2.5 text-[15px] font-medium text-white bg-[#6C2BD9] rounded-full hover:bg-[#5A1CB8] transition-all duration-300"
+                className="px-10 py-3 text-[16px] font-medium text-white 
+                         bg-gradient-to-r from-[#04F9FC] to-[#BF1CF0]
+                         rounded-full transition-all duration-300
+                         hover:shadow-[0_0_20px_rgba(4,249,252,0.5)]
+                         hover:opacity-90"
               >
                 Log In
               </button>
               <button
                 onClick={() => router.push('/auth/signup')}
-                className="px-4 py-2 bg-[#6C63FF] text-white rounded-[14px] hover:bg-[#5A51DD]
-                         transition-all duration-200 font-medium"
+                className="px-10 py-3 text-[16px] font-medium
+                         text-white rounded-full
+                         transition-all duration-300
+                         border border-[#7573F7]/50
+                         hover:border-[#BF1CF0]/50
+                         hover:shadow-[0_0_20px_rgba(191,28,240,0.3)]"
               >
                 Sign up
               </button>

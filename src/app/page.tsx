@@ -17,9 +17,9 @@ export default function Home() {
         <HeroSection />
         <VideoSection />
         <IntroSection />
-        <StatsSection />
         <ComparisonSection />
         <BenefitsSection />
+        <StatsSection />
         <CourseSection />
       </main>
     </>

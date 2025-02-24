@@ -27,7 +27,7 @@ export default function CourseSection() {
   ];
 
   return (
-    <section id="courses-section" className="py-16 px-4">
+    <section className="py-20 bg-[#020817] relative overflow-hidden">
       <div className="container mx-auto max-w-6xl">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}

@@ -12,7 +12,7 @@ export default function VideoSection() {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 py-16">
+    <section className="py-20 bg-[#020817] relative overflow-hidden min-h-screen flex items-center justify-center px-4">
       <div className="container mx-auto">
         <motion.div 
           initial={{ opacity: 0, scale: 0.95 }}
