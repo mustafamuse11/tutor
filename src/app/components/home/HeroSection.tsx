@@ -6,7 +6,7 @@ export default function HeroSection() {
   };
 
   return (
-    <div className="bg-[#020817]">
+    <div className="bg-[#111111]">
       <div className="flex flex-col lg:flex-row items-center justify-between mt-0 px-4">
         <div className="w-full lg:w-1/2 rounded-3xl overflow-hidden">
           <img

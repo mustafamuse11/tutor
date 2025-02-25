@@ -7,7 +7,7 @@ export default function Navbar() {
   const router = useRouter();
 
   return (
-    <nav className="flex items-center justify-between p-4 bg-[#020817]">
+    <nav className="flex items-center justify-between p-4 bg-[#111111]">
       <Link href="/" className="text-[#04F9FC] text-2xl font-bold bg-gradient-to-r from-[#04F9FC] via-[#7573F7] to-[#BF1CF0] bg-clip-text text-transparent">
         Logo
       </Link>

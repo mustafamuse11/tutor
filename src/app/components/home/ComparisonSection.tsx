@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function ComparisonSection() {
   return (
-    <section className="py-20 bg-[#020817] relative overflow-hidden">
+    <section className="py-20 bg-[#111111] relative overflow-hidden">
       <div className="container mx-auto max-w-6xl">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
