@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function CourseSection() {
   return (
-    <section id="courses" className="py-20 bg-[#111111]">
+    <section id="courses" className="pt-8 pb-16 bg-[#111111]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
