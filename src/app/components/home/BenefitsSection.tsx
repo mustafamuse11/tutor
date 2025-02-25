@@ -2,7 +2,7 @@
 
 export default function BenefitsSection() {
   return (
-    <section className="px-8 lg:px-16 py-20 bg-[#020817]">
+    <section className="py-20 bg-[#111111]">
       <div className="max-w-7xl mx-auto">
         {/* Title Section */}
         <div className="text-center mb-20">

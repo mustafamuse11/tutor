@@ -2,7 +2,7 @@
 
 export default function StatsSection() {
   return (
-    <div className="bg-[#020817] py-16">
+    <section className="py-20 bg-[#111111]">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-center items-center gap-8 max-w-5xl mx-auto">
           {/* Students Taught */}
@@ -30,6 +30,6 @@ export default function StatsSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

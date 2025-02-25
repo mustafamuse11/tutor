@@ -4,11 +4,17 @@ import { motion } from 'framer-motion';
 
 export default function CourseSection() {
   return (
-    <div id="courses" className="bg-[#020817] py-16">
+    <section className="py-20 bg-[#111111]">
       <div className="container mx-auto px-4">
-        <h2 className="text-5xl font-bold text-center bg-gradient-to-r from-[#04F9FC] via-[#7573F7] to-[#BF1CF0] bg-clip-text text-transparent mb-16">
-          Our Courses
-        </h2>
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Popular Courses
+          </h2>
+          <p className="text-gray-400 max-w-2xl mx-auto">
+            
+            
+          </p>
+        </div>
         
         <div className="flex flex-col gap-8 max-w-5xl mx-auto">
           {/* Web Development Card */}
@@ -124,6 +130,6 @@ export default function CourseSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

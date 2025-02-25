@@ -8,6 +8,7 @@ import StatsSection from './components/home/StatsSection'
 import ComparisonSection from './components/home/ComparisonSection'
 import BenefitsSection from './components/home/BenefitsSection'
 import CourseSection from './components/home/CourseSection'
+import FeatureSection from './components/home/FeatureSection'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <BenefitsSection />
         <StatsSection />
         <CourseSection />
+        <FeatureSection />
       </main>
     </>
   )
