@@ -19,7 +19,7 @@ export default function HeroSection() {
         <div className="w-full lg:w-1/2 lg:pl-12 mt-8 lg:mt-0">
           <div className="inline-block px-4 py-2 bg-gradient-to-r from-[#04F9FC]/10 via-[#7573F7]/10 to-[#BF1CF0]/10 rounded-full mb-6">
             <span className="text-[#04F9FC] font-medium">
-            Master Online Selling
+           Unlock Your Potential In Online Selling
             </span>
           </div>
 

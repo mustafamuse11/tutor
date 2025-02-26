@@ -32,7 +32,7 @@ const FeatureSection = () => {
       icon: <FaHeadset className="w-12 h-12 text-blue-500 animate-pulse" />,
       items: [
         "Instant Tutoring",
-        "24/7 Tutor Chat and AI Tutor Support",
+        "Solve problems with selling platforms",
         "Expert Essay Review"
       ]
     }
@@ -55,8 +55,7 @@ const FeatureSection = () => {
             </h3>
             <div className="w-24 h-1 bg-blue-500 mx-auto rounded-full mb-8" />
             <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-              One membership for your entire household. Whether you want to get ahead, catch up, 
-              or learn for the joy of it, we offer a personalized approach to reaching your goals.
+              This is Zoom classes, not pre-recorded—learn online selling and dropshipping live with expert guidance
             </p>
           </motion.div>
         </div>
