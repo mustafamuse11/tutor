@@ -61,10 +61,12 @@ export default function CourseSection() {
               </div>
               <div className="flex justify-end mt-4">
                 <button className="bg-[#04F9FC] text-black px-8 py-3 rounded-full 
+                                 font-semibold
                                  transition-all duration-300
-                                 hover:bg-[#00E5FF] 
-                                 hover:shadow-[0_0_20px_#04F9FC]
-                                 hover:border-[#04F9FC]
+                                 hover:bg-[#FF6B00] 
+                                 hover:shadow-[0_0_20px_#FF6B00]
+                                 hover:border-[#FF6B00]
+                                 hover:text-white
                                  hover:translate-x-2
                                  transform">
                   Book Now
@@ -117,10 +119,12 @@ export default function CourseSection() {
               </div>
               <div className="flex justify-end mt-4">
                 <button className="bg-[#04F9FC] text-black px-8 py-3 rounded-full 
+                                 font-semibold
                                  transition-all duration-300
-                                 hover:bg-[#00E5FF] 
-                                 hover:shadow-[0_0_20px_#04F9FC]
-                                 hover:border-[#04F9FC]
+                                 hover:bg-[#FF6B00] 
+                                 hover:shadow-[0_0_20px_#FF6B00]
+                                 hover:border-[#FF6B00]
+                                 hover:text-white
                                  hover:translate-x-2
                                  transform">
                   Book Now
@@ -171,10 +175,12 @@ export default function CourseSection() {
               </div>
               <div className="flex justify-end mt-4">
                 <button className="bg-[#04F9FC] text-black px-8 py-3 rounded-full 
+                                 font-semibold
                                  transition-all duration-300
-                                 hover:bg-[#00E5FF] 
-                                 hover:shadow-[0_0_20px_#04F9FC]
-                                 hover:border-[#04F9FC]
+                                 hover:bg-[#FF6B00] 
+                                 hover:shadow-[0_0_20px_#FF6B00]
+                                 hover:border-[#FF6B00]
+                                 hover:text-white
                                  hover:translate-x-2
                                  transform">
                   Book Now
@@ -221,10 +227,12 @@ export default function CourseSection() {
               </div>
               <div className="flex justify-end mt-4">
                 <button className="bg-[#04F9FC] text-black px-8 py-3 rounded-full 
+                                 font-semibold
                                  transition-all duration-300
-                                 hover:bg-[#00E5FF] 
-                                 hover:shadow-[0_0_20px_#04F9FC]
-                                 hover:border-[#04F9FC]
+                                 hover:bg-[#FF6B00] 
+                                 hover:shadow-[0_0_20px_#FF6B00]
+                                 hover:border-[#FF6B00]
+                                 hover:text-white
                                  hover:translate-x-2
                                  transform">
                   Book Now
