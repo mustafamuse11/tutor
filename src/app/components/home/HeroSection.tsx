@@ -19,17 +19,16 @@ export default function HeroSection() {
         <div className="w-full lg:w-1/2 lg:pl-12 mt-8 lg:mt-0">
           <div className="inline-block px-4 py-2 bg-gradient-to-r from-[#04F9FC]/10 via-[#7573F7]/10 to-[#BF1CF0]/10 rounded-full mb-6">
             <span className="text-[#04F9FC] font-medium">
-              Welcome 
+            Master Online Selling
             </span>
           </div>
 
           <h1 className="text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-[#04F9FC] via-[#7573F7] to-[#BF1CF0] bg-clip-text text-transparent">
-            Transform Your Future With Our Courses
+            Advance Your Skills with Live Zoom Training
           </h1>
 
-          <p className="text-gray-400 text-lg mb-8">
-            Learn from industry experts and take your skills to the next level.
-            Join our community of successful learners today.
+          <p className="text-gray-200 text-lg mb-8">
+            Participate In Live Zoom Training Sessions Led By Industry Experts To Excel In Online Selling. Learn To Build E-commerce Stores, And Grow Your Revenue. Receive Tailored Insights, Innovative Techniques, And connect With A Dedicated Network Of Achievers. Elevate Your Career Today!
           </p>
 
           <button 

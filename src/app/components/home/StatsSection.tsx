@@ -17,7 +17,7 @@ export default function StatsSection() {
           <div className="bg-[#1E293B]/40 backdrop-blur-sm rounded-2xl p-8 shadow-[0_0_50px_rgba(191,28,240,0.35)] border border-[#BF1CF0]/30 w-full md:w-1/3">
             <div className="flex flex-col items-center">
               <span className="text-6xl font-bold text-[#BF1CF0] mb-4 drop-shadow-[0_0_8px_rgba(191,28,240,0.5)]">4</span>
-              <span className="text-2xl text-white">Courses Created</span>
+              <span className="text-2xl text-white">Live Training</span>
             </div>
           </div>
 

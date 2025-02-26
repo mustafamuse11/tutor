@@ -18,49 +18,58 @@ export default function ComparisonSection() {
           <div className="flex gap-8 items-center justify-center">
             {/* Left Image */}
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6 }}
-            >
-              <div className="relative rounded-2xl overflow-hidden bg-[#2A2A3F] w-[400px]
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              viewport={{ once: true }}
+              className="relative rounded-2xl overflow-hidden bg-[#2A2A3F] w-[400px]
                           transition-all duration-300 ease-in-out
                           hover:shadow-[0_0_20px_rgba(236,72,153,0.5)]
-                          hover:border-pink-500 border-2 border-transparent">
-                <img
-                  src="/comparison-1.jpg"
-                  alt="Before"
-                  className="w-full h-[400px] object-cover"
-                />
-              </div>
+                          hover:border-pink-500 border-2 border-transparent"
+            >
+              <motion.img
+                initial={{ scale: 1.1 }}
+                whileInView={{ scale: 1 }}
+                transition={{ duration: 1.2 }}
+                src="/comparison-1.jpg"
+                alt="Before"
+                className="w-full h-[400px] object-cover"
+              />
             </motion.div>
 
             {/* VS Circle */}
             <motion.div
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ duration: 0.5, delay: 0.3 }}
+              initial={{ scale: 0, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.4 }}
+              viewport={{ once: true }}
               className="z-10 bg-[#00E5FF] w-14 h-14 rounded-full flex items-center justify-center
-                         shadow-[0_0_30px_rgba(0,229,255,0.4)]"
+                         shadow-[0_0_30px_rgba(0,229,255,0.4)]
+                         hover:shadow-[0_0_40px_rgba(0,229,255,0.6)]
+                         transition-all duration-300"
             >
               <span className="text-black font-bold text-lg">VS</span>
             </motion.div>
 
             {/* Right Image */}
             <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6 }}
-            >
-              <div className="relative rounded-2xl overflow-hidden bg-[#2A2A3F] w-[400px]
+              initial={{ opacity: 0, x: 100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              viewport={{ once: true }}
+              className="relative rounded-2xl overflow-hidden bg-[#2A2A3F] w-[400px]
                           transition-all duration-300 ease-in-out
                           hover:shadow-[0_0_20px_rgba(236,72,153,0.5)]
-                          hover:border-pink-500 border-2 border-transparent">
-                <img
-                  src="/comparison-2.jpg"
-                  alt="After"
-                  className="w-full h-[400px] object-cover"
-                />
-              </div>
+                          hover:border-pink-500 border-2 border-transparent"
+            >
+              <motion.img
+                initial={{ scale: 1.1 }}
+                whileInView={{ scale: 1 }}
+                transition={{ duration: 1.2 }}
+                src="/comparison-2.jpg"
+                alt="After"
+                className="w-full h-[400px] object-cover"
+              />
             </motion.div>
           </div>
         </div>
@@ -68,8 +77,9 @@ export default function ComparisonSection() {
         {/* Description */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.6, duration: 0.6 }}
+          viewport={{ once: true }}
           className="text-gray-200 text-center mt-12 text-lg font-medium"
         >
           From Humble Beginnings To Professional Excellence. Join Us On This Transformative Journey.

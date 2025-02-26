@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function CourseSection() {
   return (
-    <section id="courses" className="pt-8 pb-16 bg-[#111111]">
+    <div id="courses" className="pt-8 pb-16 bg-[#111111]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
@@ -22,18 +22,18 @@ export default function CourseSection() {
             <div className="flex flex-col md:flex-row gap-8 h-full">
               <div className="md:w-2/5">
                 <img
-                  src="/web-development.jpg"
-                  alt="Web Development"
+                  src="/jumia.jpg"
+                    alt="Jumia Selling Mastery"
                   className="w-full h-[240px] object-cover rounded-xl"
                 />
               </div>
               <div className="md:w-3/5 flex flex-col justify-between">
                 <div>
                   <h3 className="text-2xl font-bold text-white mb-3">
-                    Web Development
+                    Jumia Selling Mastery
                   </h3>
-                  <p className="text-gray-400">
-                    Master modern web development with React, Next.js, and cutting-edge technologies. Learn from industry experts and build real-world projects.
+                  <p className="text-gray-200">
+                   Become a pro at selling on Jumia with our expert-led live Zoom training. Master platform optimization, effective listing strategies, and sales growth techniques. Gain hands-on skills over one month, guided by industry professionals, and boost your e-commerce success.
                   </p>
                 </div>
                 <div className="flex justify-end mt-4">
@@ -51,17 +51,17 @@ export default function CourseSection() {
               <div className="md:w-2/5">
                 <img
                   src="/ui-ux-design.jpg"
-                  alt="UI/UX Design"
+                  alt="Kilimall Selling Mastery"
                   className="w-full h-[240px] object-cover rounded-xl"
                 />
               </div>
               <div className="md:w-3/5 flex flex-col justify-between">
                 <div>
                   <h3 className="text-2xl font-bold text-white mb-3">
-                    UI/UX Design
+                   Kilimall Selling Mastery
                   </h3>
-                  <p className="text-gray-400">
-                    Create stunning user interfaces and seamless user experiences with modern design principles. Learn the latest tools and techniques in UI/UX.
+                  <p className="text-gray-200">
+                   Excel at selling on Kilimall with our expert-led live Zoom training. Master store setup, product listing optimization, and sales strategies. Develop practical skills over one month, guided by industry pros, and maximize your e-commerce profits.
                   </p>
                 </div>
                 <div className="flex justify-end mt-4">
@@ -79,17 +79,17 @@ export default function CourseSection() {
               <div className="md:w-2/5">
                 <img
                   src="/mobile-development.jpg"
-                  alt="Mobile Development"
+                  alt="Jiji Selling Mastery"
                   className="w-full h-[240px] object-cover rounded-xl"
                 />
               </div>
               <div className="md:w-3/5 flex flex-col justify-between">
                 <div>
                   <h3 className="text-2xl font-bold text-white mb-3">
-                    Mobile App Development
+                  Jiji Selling Mastery
                   </h3>
-                  <p className="text-gray-400">
-                    Build native mobile applications for iOS and Android using React Native and Flutter. Learn app development from concept to deployment.
+                  <p className="text-gray-200">
+                  Dominate selling on Jiji with our expert-led live Zoom training. Master product listings, pricing tactics, and customer engagement. Build essential skills over one month, guided by industry experts, and elevate your online marketplace success.".
                   </p>
                 </div>
                 <div className="flex justify-end mt-4">
@@ -107,17 +107,17 @@ export default function CourseSection() {
               <div className="md:w-2/5">
                 <img
                   src="/data-science.jpg"
-                  alt="Data Science"
+                  alt="Personal Development Guidance"
                   className="w-full h-[240px] object-cover rounded-xl"
                 />
               </div>
               <div className="md:w-3/5 flex flex-col justify-between">
                 <div>
                   <h3 className="text-2xl font-bold text-white mb-3">
-                    Data Science
+                   Personal Development Guidance
                   </h3>
-                  <p className="text-gray-400">
-                    Learn data analysis, machine learning, and AI with Python and modern data science tools. Master the skills needed for data-driven decision making.
+                  <p className="text-gray-200">
+                   Embark on your path with our expert-led live Zoom guidance. Discover your goals, enhance your skills, and learn basics like creating emails and how online works. Receive personalized support over one month, guided by professionals, to build confidence and kickstart your journey."
                   </p>
                 </div>
                 <div className="flex justify-end mt-4">
@@ -130,6 +130,6 @@ export default function CourseSection() {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
