@@ -15,14 +15,14 @@ export default function ComparisonSection() {
         </motion.h2>
 
         <div className="flex justify-center items-center relative">
-          <div className="flex gap-8 items-center justify-center">
+          <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
             {/* Left Image */}
             <motion.div
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
               viewport={{ once: true }}
-              className="relative rounded-2xl overflow-hidden bg-[#2A2A3F] w-[400px]
+              className="relative rounded-2xl overflow-hidden bg-[#2A2A3F] w-full md:w-[400px]
                           transition-all duration-300 ease-in-out
                           hover:shadow-[0_0_20px_rgba(236,72,153,0.5)]
                           hover:border-pink-500 border-2 border-transparent"
@@ -33,7 +33,7 @@ export default function ComparisonSection() {
                 transition={{ duration: 1.2 }}
                 src="/comparison-1.jpg"
                 alt="Before"
-                className="w-full h-[400px] object-cover"
+                className="w-full h-[300px] md:h-[400px] object-cover"
               />
             </motion.div>
 
@@ -57,7 +57,7 @@ export default function ComparisonSection() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
               viewport={{ once: true }}
-              className="relative rounded-2xl overflow-hidden bg-[#2A2A3F] w-[400px]
+              className="relative rounded-2xl overflow-hidden bg-[#2A2A3F] w-full md:w-[400px]
                           transition-all duration-300 ease-in-out
                           hover:shadow-[0_0_20px_rgba(236,72,153,0.5)]
                           hover:border-pink-500 border-2 border-transparent"
@@ -68,7 +68,7 @@ export default function ComparisonSection() {
                 transition={{ duration: 1.2 }}
                 src="/comparison-2.jpg"
                 alt="After"
-                className="w-full h-[400px] object-cover"
+                className="w-full h-[300px] md:h-[400px] object-cover"
               />
             </motion.div>
           </div>
@@ -80,7 +80,7 @@ export default function ComparisonSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-gray-200 text-center mt-12 text-lg font-medium"
+          className="text-gray-200 text-center mt-12 text-lg font-medium px-4"
         >
           From Humble Beginnings To Professional Excellence. Join Us On This Transformative Journey.
         </motion.p>
