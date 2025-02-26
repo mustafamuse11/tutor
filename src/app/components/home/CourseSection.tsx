@@ -20,11 +20,12 @@ export default function CourseSection() {
           {/* Web Development Card */}
           <div className="bg-[#1E293B]/40 backdrop-blur-sm rounded-2xl p-8 hover:shadow-[0_0_30px_rgba(4,249,252,0.2)] transition-all duration-300 group min-h-[280px]">
             <div className="flex flex-col md:flex-row gap-8 h-full">
-              <div className="md:w-2/5">
+              <div className="md:w-1/2">
                 <img
-                  src="/jumia.jpg"
-                    alt="Jumia Selling Mastery"
-                  className="w-full h-[240px] object-cover rounded-xl"
+                  src="/sell-on-jumia.jpg.webp"
+                  alt="Web Development"
+                  className="w-full h-full object-cover rounded-xl"
+                  loading="eager"
                 />
               </div>
               <div className="md:w-3/5 flex flex-col justify-between">
@@ -33,7 +34,7 @@ export default function CourseSection() {
                     Jumia Selling Mastery
                   </h3>
                   <p className="text-gray-200">
-                   Become a pro at selling on Jumia with our expert-led live Zoom training. Master platform optimization, effective listing strategies, and sales growth techniques. Gain hands-on skills over one month, guided by industry professionals, and boost your e-commerce success.
+                    Master the art of selling on Jumia! Learn proven strategies to list products, optimize your store, and maximize profits. Join successful sellers and start your e-commerce journey today.
                   </p>
                 </div>
                 <div className="flex justify-end mt-4">
@@ -48,11 +49,12 @@ export default function CourseSection() {
           {/* UI/UX Design Card */}
           <div className="bg-[#1E293B]/40 backdrop-blur-sm rounded-2xl p-8 hover:shadow-[0_0_30px_rgba(4,249,252,0.2)] transition-all duration-300 group min-h-[280px]">
             <div className="flex flex-col md:flex-row gap-8 h-full">
-              <div className="md:w-2/5">
+              <div className="md:w-1/2">
                 <img
-                  src="/ui-ux-design.jpg"
-                  alt="Kilimall Selling Mastery"
-                  className="w-full h-[240px] object-cover rounded-xl"
+                  src="/sell-on-kili.webp"
+                  alt="UI/UX Design"
+                  className="w-full h-full object-cover rounded-xl"
+                  loading="eager"
                 />
               </div>
               <div className="md:w-3/5 flex flex-col justify-between">
@@ -76,11 +78,12 @@ export default function CourseSection() {
           {/* Mobile App Development Card */}
           <div className="bg-[#1E293B]/40 backdrop-blur-sm rounded-2xl p-8 hover:shadow-[0_0_30px_rgba(4,249,252,0.2)] transition-all duration-300 group min-h-[280px]">
             <div className="flex flex-col md:flex-row gap-8 h-full">
-              <div className="md:w-2/5">
+              <div className="md:w-1/2">
                 <img
-                  src="/mobile-development.jpg"
-                  alt="Jiji Selling Mastery"
-                  className="w-full h-[240px] object-cover rounded-xl"
+                  src="/sell-on-jiji.jpg.webp"
+                  alt="Mobile Development"
+                  className="w-full h-[400px] object-cover rounded-xl"
+                  loading="eager"
                 />
               </div>
               <div className="md:w-3/5 flex flex-col justify-between">
@@ -104,11 +107,12 @@ export default function CourseSection() {
           {/* Data Science Card */}
           <div className="bg-[#1E293B]/40 backdrop-blur-sm rounded-2xl p-8 hover:shadow-[0_0_30px_rgba(4,249,252,0.2)] transition-all duration-300 group min-h-[280px]">
             <div className="flex flex-col md:flex-row gap-8 h-full">
-              <div className="md:w-2/5">
+              <div className="md:w-1/2">
                 <img
                   src="/data-science.jpg"
-                  alt="Personal Development Guidance"
-                  className="w-full h-[240px] object-cover rounded-xl"
+                  alt="Data Science"
+                  className="w-full h-full object-cover rounded-xl"
+                  loading="eager"
                 />
               </div>
               <div className="md:w-3/5 flex flex-col justify-between">
